@@ -1,0 +1,71 @@
+.my-body{
+    background-color: rgb(175, 220, 248);
+}
+
+.my-background{
+    background-image: url("../images/nav-background.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.border-on{
+    border: 2px solid black;
+}
+
+
+.my-no-underline{
+    text-decoration: none;
+}
+
+#contacts li{
+    list-style: none;
+}
+
+.my-card-height
+{
+    height: 100%;
+  
+}
+.my-g1-s1
+{
+    background-image: url("../images/jscript-image.jpeg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+
+}
+
+.my-g1-s2
+{
+    background-image: url("../images/SQL-image.jpeg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.my-g2-s1
+{
+    background-image: url("../images/react.png");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.logo
+{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
