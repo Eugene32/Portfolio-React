@@ -17,12 +17,12 @@ class CodeCard extends Component {
 
                             return (
                                 <div className='col box h-50 text-center'>
-                                    <div className='col box h-50 text-center' >
+                                    <div className='col box h-100 text-center' >
 
                                         <div key={index} >
                                             <a href={item.applink} target="_blank" rel="noreferrer">{item.title}</a>
                                             <a href={item.githublink} target="_blank" rel="noreferrer"><i className="fa-brands fa-github-square fa-2xl px-3"></i></a>
-
+                                            <img src={item.image} alt=""/>
                                         </div>
                                     </div>
                                 </div>
