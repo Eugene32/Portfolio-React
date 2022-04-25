@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CodeItems from './CodeItems.js'
-// import Image from '../assets/images/react.png'
-// import '../assets/css/style.css'
+import Image from '../assets/images/react.png'
+import '../assets/css/style.css'
 // import IMAGES from './index2.json'
 
 
@@ -22,8 +22,9 @@ class CodeCard extends Component {
                                         <div key={index} >
                                             <a href={item.applink} target="_blank" rel="noreferrer">{item.title}</a>
                                             <a href={item.githublink} target="_blank" rel="noreferrer"><i className="fa-brands fa-github-square fa-2xl px-3"></i></a>
-                                            <img src={item.image} alt=""/>
+
                                         </div>
+                                        <img src={item.image} className="logo" alt="" />
                                     </div>
                                 </div>
                             )
