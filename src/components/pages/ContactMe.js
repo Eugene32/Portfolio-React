@@ -25,8 +25,8 @@ function ContactMe() {
     if (!isEmpty) { return <EmptyReminder />}}
 
   return (
-    <form onSubmit={handleSubmit} className='pl-6 ml-6'>
-      <label className="align-self-start">Username:
+    <form onSubmit={handleSubmit} className='pl-6 ml-6 h-100'>
+      <label className="align-self-start w-25">Username:
       <input 
       className="w-100"
         type="text" 
@@ -38,7 +38,7 @@ function ContactMe() {
       </label>
       <br/>
       <br/>
-      <label className="align-self-start">Email:
+      <label className="align-self-start w-25">Email:
         <input 
         className="w-100"
           type="email" 
@@ -50,19 +50,21 @@ function ContactMe() {
         </label>
         <br/>
         <br/>
-        <label className="align-self-start">Message:
+        <label className="align-self-start w-25">Message:
         <textarea
-        className="w-100"
+        className="w-100 v-100"
           type="text" 
           name="message" 
           value={inputs.message || ""} 
           onChange={handleChange}
-          placeholder='Enter message here' 
+          placeholder='Enter message here'           
+          required= 'true'
           
         />
         </label>
         <br/>
         <MessageReminder isEmpty={true}/>
+        <br/>
         <br/>
         <input className="col-2 ml-6" type="submit" />
     </form>
