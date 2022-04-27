@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Eugene32/Portfolio-React/static/css/main.4bdadd52.css",
+    "main.js": "/Eugene32/Portfolio-React/static/js/main.f3e0ed61.js",
+    "static/media/Photo 1.JPG": "/Eugene32/Portfolio-React/static/media/Photo 1.79f630078ce4cfc11bbb.JPG",
+    "static/media/Travel-App-demo.png": "/Eugene32/Portfolio-React/static/media/Travel-App-demo.2750bc4525968bb4381f.png",
+    "static/media/Find-A-Pet.png": "/Eugene32/Portfolio-React/static/media/Find-A-Pet.01cd66f4937f6ef33a78.png",
+    "static/media/nav-background.jpg": "/Eugene32/Portfolio-React/static/media/nav-background.0e1228b0c466953ea5e8.jpg",
+    "static/media/SQL-image.jpeg": "/Eugene32/Portfolio-React/static/media/SQL-image.f80920c9911642b6184e.jpeg",
+    "static/media/jscript-image.jpeg": "/Eugene32/Portfolio-React/static/media/jscript-image.85290a9cafce8938c0fc.jpeg",
+    "static/media/cv.docx": "/Eugene32/Portfolio-React/static/media/cv.08b613495be41785879b.docx",
+    "index.html": "/Eugene32/Portfolio-React/index.html",
+    "main.4bdadd52.css.map": "/Eugene32/Portfolio-React/static/css/main.4bdadd52.css.map",
+    "main.f3e0ed61.js.map": "/Eugene32/Portfolio-React/static/js/main.f3e0ed61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bdadd52.css",
+    "static/js/main.f3e0ed61.js"
+  ]
+}
