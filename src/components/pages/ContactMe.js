@@ -16,13 +16,13 @@ function ContactMe() {
   }
 
 
-  function EmptryReminder(props) {
+  function EmptyReminder() {
     return <span>Please enter you message.</span>;
   }
 
-  function MessageReminder(props) {
+  function MessageReminder() {
     const isEmpty = inputs.message;
-    if (!isEmpty) { return <EmptryReminder />}}
+    if (!isEmpty) { return <EmptyReminder />}}
 
   return (
     <form onSubmit={handleSubmit} className='pl-6 ml-6'>
@@ -33,6 +33,7 @@ function ContactMe() {
         name="username" 
         value={inputs.username || ""} 
         onChange={handleChange}
+        placeholder='John Doe'
       />
       </label>
       <br/>
@@ -44,6 +45,7 @@ function ContactMe() {
           name="Email" 
           value={inputs.Email || ""} 
           onChange={handleChange}
+          placeholder='e.g. mail@email.com'
         />
         </label>
         <br/>
@@ -55,10 +57,12 @@ function ContactMe() {
           name="message" 
           value={inputs.message || ""} 
           onChange={handleChange}
+          placeholder='Enter message here' 
+          
         />
         </label>
         <br/>
-        <MessageReminder isEmpty={false}/>
+        <MessageReminder isEmpty={true}/>
         <br/>
         <input className="col-2 ml-6" type="submit" />
     </form>
