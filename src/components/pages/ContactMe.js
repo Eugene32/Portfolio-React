@@ -15,6 +15,15 @@ function ContactMe() {
     alert(inputs);
   }
 
+
+  function EmptryReminder(props) {
+    return <span>Please enter you message.</span>;
+  }
+
+  function MessageReminder(props) {
+    const isEmpty = inputs.message;
+    if (!isEmpty) { return <EmptryReminder />}}
+
   return (
     <form onSubmit={handleSubmit} className='pl-6 ml-6'>
       <label className="align-self-start">Username:
@@ -26,8 +35,8 @@ function ContactMe() {
         onChange={handleChange}
       />
       </label>
-      <br></br>
-      <br></br>
+      <br/>
+      <br/>
       <label className="align-self-start">Email:
         <input 
         className="w-100"
@@ -37,8 +46,8 @@ function ContactMe() {
           onChange={handleChange}
         />
         </label>
-        <br></br>
-        <br></br>
+        <br/>
+        <br/>
         <label className="align-self-start">Message:
         <textarea
         className="w-100"
@@ -48,8 +57,9 @@ function ContactMe() {
           onChange={handleChange}
         />
         </label>
-        <br></br>
-        <br></br>
+        <br/>
+        <MessageReminder isEmpty={false}/>
+        <br/>
         <input className="col-2 ml-6" type="submit" />
     </form>
   )

@@ -6,7 +6,7 @@ const CodeItems =
         title: 'Web-DevOp-Quiz',
         githublink: 'https://github.com/Eugene32/Web-DevOp-Quiz',
         applink: 'https://eugene32.github.io/Web-DevOp-Quiz/',
-        image: "/images/react.png"
+        image: "/images/jscript-image.jpeg"
 
     },
     {
@@ -42,7 +42,7 @@ const CodeItems =
         title: 'Social Network API (Mongodb)',
         githublink: 'https://github.com/Eugene32/Social-Network-API',
         applink: 'https://drive.google.com/file/d/1v-e1Yybqx7KxnCljpmiPk92psB3gJTKs/view',
-        image: "/images/SQL-image.jpeg"
+        image: "/images/mongo-db.jpg"
     },
 
 ]
