@@ -6,9 +6,13 @@ const AboutMe = () => {
     return (
         <div className='my-padding-top w-auto '>
             <section id="about-me" className="section box">
-                <span className='title is-1 level-left ml-6'>About Me</span>
+
                 <div className="container">
                     <div class="align-items-start">
+                        <div>
+                            <span className='title is-1 level-left ml-6'>About Me</span>
+                            <br/>
+                        </div>
                         <div >
                             <div className='card  w-25 px-3'>
                                 <img className='w-100 py-3' src={Avatar} alt="Avatar" />

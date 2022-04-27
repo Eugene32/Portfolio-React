@@ -7,7 +7,7 @@ function ContactMe() {
   const handleChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
-    setInputs(values => ({...values, [name]: value}))
+    setInputs(values => ({ ...values, [name]: value }))
   }
 
   const handleSubmit = (event) => {
@@ -22,52 +22,56 @@ function ContactMe() {
 
   function MessageReminder() {
     const isEmpty = inputs.message;
-    if (!isEmpty) { return <EmptyReminder />}}
+    if (!isEmpty) { return <EmptyReminder /> }
+  }
 
   return (
-    <form onSubmit={handleSubmit} className='pl-6 ml-6 h-100'>
-      <label className="align-self-start w-25">Username:
-      <input 
-      className="w-100"
-        type="text" 
-        name="username" 
-        value={inputs.username || ""} 
-        onChange={handleChange}
-        placeholder='John Doe'
-      />
-      </label>
+    <div className="container  align-items-start">
       <br/>
-      <br/>
-      <label className="align-self-start w-25">Email:
-        <input 
-        className="w-100"
-          type="email" 
-          name="Email" 
-          value={inputs.Email || ""} 
-          onChange={handleChange}
-          placeholder='e.g. mail@email.com'
-        />
+      <form onSubmit={handleSubmit} className='container h-75'>
+        <label className="align-self-start w-25">Username:
+          <input
+            className="w-100"
+            type="text"
+            name="username"
+            value={inputs.username || ""}
+            onChange={handleChange}
+            placeholder='John Doe'
+          />
         </label>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <label className="align-self-start w-25">Email:
+          <input
+            className="w-100"
+            type="email"
+            name="Email"
+            value={inputs.Email || ""}
+            onChange={handleChange}
+            placeholder='e.g. mail@email.com'
+          />
+        </label>
+        <br />
+        <br />
         <label className="align-self-start w-25">Message:
-        <textarea
-        className="w-100 v-100"
-          type="text" 
-          name="message" 
-          value={inputs.message || ""} 
-          onChange={handleChange}
-          placeholder='Enter message here'           
-          required= 'true'
-          
-        />
+          <textarea
+            className="w-100 v-100"
+            type="text"
+            name="message"
+            value={inputs.message || ""}
+            onChange={handleChange}
+            placeholder='Enter message here'
+            required='true'
+
+          />
         </label>
-        <br/>
-        <MessageReminder isEmpty={true}/>
-        <br/>
-        <br/>
+        <br />
+        <MessageReminder isEmpty={true} />
+        <br />
+        <br />
         <input className="col-2 ml-6" type="submit" />
-    </form>
+      </form>
+    </div>
   )
 }
 

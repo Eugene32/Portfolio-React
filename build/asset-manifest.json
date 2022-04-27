@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.1cfd6194.css",
+    "main.js": "/Portfolio-React/static/js/main.539917c8.js",
+    "static/media/Photo 1.JPG": "/Portfolio-React/static/media/Photo 1.79f630078ce4cfc11bbb.JPG",
+    "static/media/Travel-App-demo.png": "/Portfolio-React/static/media/Travel-App-demo.2750bc4525968bb4381f.png",
+    "static/media/Find-A-Pet.png": "/Portfolio-React/static/media/Find-A-Pet.01cd66f4937f6ef33a78.png",
+    "static/media/nav-background.jpg": "/Portfolio-React/static/media/nav-background.0e1228b0c466953ea5e8.jpg",
+    "static/media/SQL-image.jpeg": "/Portfolio-React/static/media/SQL-image.f80920c9911642b6184e.jpeg",
+    "static/media/jscript-image.jpeg": "/Portfolio-React/static/media/jscript-image.85290a9cafce8938c0fc.jpeg",
+    "static/media/cv.docx": "/Portfolio-React/static/media/cv.08b613495be41785879b.docx",
+    "index.html": "/Portfolio-React/index.html",
+    "main.1cfd6194.css.map": "/Portfolio-React/static/css/main.1cfd6194.css.map",
+    "main.539917c8.js.map": "/Portfolio-React/static/js/main.539917c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cfd6194.css",
+    "static/js/main.539917c8.js"
+  ]
+}
