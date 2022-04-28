@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CodeItems from './CodeItems.js'
 import '../assets/css/style.css'
-import image from '../assets/images/mongo-db.jpg'
 
 
 class CodeCard extends Component {
