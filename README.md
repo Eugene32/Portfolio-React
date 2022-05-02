@@ -24,7 +24,7 @@ Latest portfolio utilizing react to render contents and interaction to user.
 
 ![alt text][logo]
 
-[logo]: /JATE.jpg "JATE demo"
+[logo]: /src/components/assets/images/demo-react.jpg "Portfolio demo"
 
 
 ## Questions: 
